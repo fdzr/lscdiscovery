@@ -39,7 +39,7 @@ This phase contains two subtasks:
 
 **Graded lexical Semantic Change** subtask is defined similar to the previous phase. The participants will be asked to rank a set of target words instead of the set of content words in the lemma vocabulary intersection.
 
-**Hard Detection** subtask is a classification task with 3 classes (no change/sense gain/sense loss). For this task, participants are asked to provide predictions only for the annotated target words. Yet, the submitted systems will be evaluated for change vs no change similar to Schlechtweg et al. (2020). The true binary change labels will be derived straightforwardly from the annotated word sense frequency distributions as described above. We will publish the annotated usages without human annotation as model input. Predictions will be scored against the ground truth via F1, Precision and Recall. 
+**Hard Detection** subtask is a classification task with 3 classes (no change/sense gain/sense loss). For this task, participants are asked to provide predictions only for the annotated target words. The task has 3 classes but the main evaluation metric will only consider change vs no change similar to Schlechtweg et al. (2020), 3-level classification performance will be considered as a secondary metric. The true binary change labels will be derived straightforwardly from the annotated word sense frequency distributions as described above. We will publish the annotated usages without human annotation as model input. Predictions will be scored against the ground truth via F1, Precision and Recall. 
 
 
 
@@ -85,7 +85,7 @@ Shared task participants are invited to submit a system description paper to be 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out. -->
 
 ### Contact
-Please write to Frank Zamora to get access to our Telegram group.
+Communication between the participants and the organizers will take place on a Telegram channel. Write to Frank Zamora to access our channel. Please write to Frank Zamora to get access to our Telegram channel.
 
 
 ### Bibibliography
