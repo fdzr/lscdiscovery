@@ -86,7 +86,7 @@ Shared task participants are invited to submit a system description paper to be 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out. -->
 
 ### Contact
-Please join to our [Telegram channel](https://t.me/lscdiscory) to follow the shared task updates and ask questions to the organizers.
+Please write to Frank Zamora to get access to our Telegram group.
 
 
 ### Bibibliography
