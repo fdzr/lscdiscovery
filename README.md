@@ -16,8 +16,7 @@ discovery as follows:
     vocabularies according to their degree of change between C1 and C2.
 
 
-The participants will be asked to rank the set of content words (N, V, A) in the lemma vocab-
-ulary intersection of C1 and C2 according to their degree of semantic change between C1 to C2.
+The participants will be asked to rank the set of content words (N, V, A) in the lemma vocabulary intersection of C1 and C2 according to their degree of semantic change between C1 to C2.
 The true degree of semantic change of a target word w will be given by the Jensen-Shannon
 distance (Donoso & Sanchez, 2017; Lin, 1991) between w’s word sense frequency distributions
 in C1 and C2 (cf. Schlechtweg, McGillivray, Hengchen, Dubossarsky, & Tahmasebi, 2020). 
@@ -40,7 +39,7 @@ This phase contains two subtasks:
 
 **Graded lexical Semantic Change** subtask is defined similar to the previous phase. The participants will be asked to rank a set of target words instead of the set of content words in the lemma vocabulary intersection.
 
-**Hard Detection** subtask is a classification task with 3 classes (no change/sense gain/sense loss). For this task, participants are asked to provide binary predictions only for the annotated target words. Yet, the submitted systems will be evaluated for change vs no change similar to Schlechtweg et al. (2020). The true binary change labels will be derived straightforwardly from the annotated word sense frequency distributions as described above. We will publish the annotated usages without human annotation as model input. Predictions will be scored against the ground truth via F1, Precision and Recall. 
+**Hard Detection** subtask is a classification task with 3 classes (no change/sense gain/sense loss). For this task, participants are asked to provide predictions only for the annotated target words. Yet, the submitted systems will be evaluated for change vs no change similar to Schlechtweg et al. (2020). The true binary change labels will be derived straightforwardly from the annotated word sense frequency distributions as described above. We will publish the annotated usages without human annotation as model input. Predictions will be scored against the ground truth via F1, Precision and Recall. 
 
 
 
