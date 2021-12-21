@@ -85,7 +85,7 @@ Shared task participants are invited to submit a system description paper to be 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out. -->
 
 ### Contact
-Communication between the participants and the organizers will take place on a Telegram channel. Write to Frank Zamora to access our channel. Please write to Frank Zamora to get access to our Telegram channel.
+Communication between the participants and the organizers will take place on a Telegram channel. Write to Frank Zamora to access our channel.
 
 
 ### Bibibliography
