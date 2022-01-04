@@ -39,8 +39,10 @@ This phase contains two subtasks:
 
 **Graded lexical Semantic Change** subtask is defined similar to the previous phase. The participants will be asked to rank a set of target words instead of the set of content words in the lemma vocabulary intersection.
 
-**Hard Detection** subtask is a classification task with 3 classes (no change/sense gain/sense loss). For this task, participants are asked to provide predictions only for the annotated target words. The task has 3 classes but the main evaluation metric will only consider change vs no change similar to Schlechtweg et al. (2020), 3-level classification performance will be considered as a secondary metric. The true change labels will be derived straightforwardly from the annotated word sense frequency distributions as described above. We will publish the annotated usages without human annotation as model input. Predictions will be scored against the ground truth via F1, Precision and Recall. 
+**Hard Detection** subtask is a classification task which is a mixture of a binary and multi-label problem,
+with 3 possible labels (change/no change, gain sense/no gain sense, loss/no loss). For this task, participants are asked to provide predictions only for the annotated target words. The task has 3 possible labels but the main evaluation metric will only consider change vs no change similar to Schlechtweg et al. (2020), 3-level classification performance will be considered as a secondary metric. The true change labels will be derived straightforwardly from the annotated word sense frequency distributions as described above. We will publish the annotated usages without human annotation as model input. Predictions will be scored against the ground truth via F1, Precision and Recall. 
 
+<!-- (no change/sense gain/sense loss) -->
 
 
 <!-- Similar to Schlechtweg et al. (2020), we define the task of binary change detection as follows:
