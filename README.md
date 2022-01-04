@@ -34,17 +34,36 @@ rank-order correlation coefficient (Bolboaca & J ̈antschi, 2006)
 
 This phase contains two subtasks:
   1. Graded Lexical Semantic Change, and
-  2. Hard Detection.
+  2. Binary Change Detection.
 
 
 **Graded lexical Semantic Change** subtask is defined similar to the previous phase. The participants will be asked to rank a set of target words instead of the set of content words in the lemma vocabulary intersection.
 
-**Hard Detection** subtask is a classification task that is a mix of a binary and multi-label problem,
+**Binary Change Detection** subtask is defined similar to Schlechtweg et al. (2020), as follows:
+
+    Given a target word w and two sets of its usages U1 and U2, decide whether w lost or
+    gained senses from U1 to U2, or not.
+
+Besides, in this subtask will be considered three binary tasks, *change vs no change*, *gain vs no gain* and *loss vs no loss*.
+
+**Change vs no change** will be considered the primary binary task and the metrics to be reported are:
+  - F1 (main metric)
+  - Precision
+  - Recall
+
+The other binary tasks *gain vs no gain* and *loss vs no loss* will be considered secondary tasks and the metrics to be reported are:
+ - F1
+ - Precision
+ - Recall
+
+
+
+<!-- **Binary Change Detection** subtask is a classification task that is a mix of a binary and multi-label problem,
 with 3 possible labels (change/no change, gain sense/no gain sense, loss/no loss). For this task, participants are asked
 to provide predictions only for the annotated target words. The task has 3 possible labels, but the main evaluation metric
 will be F1 and only change vs no change will be considered, similar to Schlechtweg et al. (2020), Precision and Recall
 will also be reported. For gain sense vs no gain sense and loss vs no loss will be considered as experimental tasks and
-F1, Recall and Precision will be reported.
+F1, Recall and Precision will be reported. -->
 
 
 <!-- **Hard Detection** subtask is a classification task which is a mixture of a binary and multi-label problem,
@@ -89,10 +108,6 @@ Shared task participants are invited to submit a system description paper to be 
 - Felipe Bravo-Marquez   -  fbravo at dcc dot uchile dot cl
 - Dominik Schlechtweg    -  schlecdk at ims dot uni-stuttgart dot de
 
-
-<!-- ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out. -->
 
 ### Contact
 Communication between the participants and the organizers will take place on a Telegram channel. Write to Frank Zamora to access our channel.
