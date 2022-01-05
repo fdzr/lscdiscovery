@@ -33,18 +33,16 @@ rank-order correlation coefficient (Bolboaca & J ̈antschi, 2006)
 ### Phase 2
 
 This phase contains two subtasks:
-  1. Graded Lexical Semantic Change, and
-  2. Binary Change Detection.
+  1. Binary Change Detection, and
+  2. Graded Lexical Semantic Change.
 
-
-**Graded lexical Semantic Change** subtask is defined similar to the previous phase. The participants will be asked to rank a set of target words instead of the set of content words in the lemma vocabulary intersection.
 
 **Binary Change Detection** subtask is defined similar to Schlechtweg et al. (2020), as follows:
 
     Given a target word w and two sets of its usages U1 and U2, decide whether w lost or
     gained senses from U1 to U2, or not.
 
-Besides, in this subtask will be considered three binary tasks, *change vs no change*, *gain vs no gain* and *loss vs no loss*.
+Besides, in this subtask will be considered two more binary tasks, *gain vs no gain* and *loss vs no loss*.
 
 **Change vs no change** will be considered the primary binary task and the metrics to be reported are:
   - F1 (main metric)
@@ -55,6 +53,10 @@ The other binary tasks *gain vs no gain* and *loss vs no loss* will be considere
  - F1
  - Precision
  - Recall
+
+
+**Graded lexical Semantic Change** subtask is defined similar to the previous phase. The participants will be asked to rank a set of target words instead of the set of content words in the lemma vocabulary intersection.
+
 
 
 
