@@ -44,7 +44,7 @@ This phase contains two subtasks:
 
 Besides, in this subtask will be considered two more binary tasks, *gain vs no gain* and *loss vs no loss*.
 
-**Change vs no change** will be considered the primary binary task and the metrics to be reported are:
+**Binary Change Detection** (*change vs no change*) will be considered the primary binary task and the metrics to be reported are:
   - F1 (main metric)
   - Precision
   - Recall
