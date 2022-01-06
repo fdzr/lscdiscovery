@@ -1,13 +1,13 @@
 The shared task on Lexical Semantic Change Discovery (LSCDiscovery) in Spanish will be carried out at the [3rd International Workshop on Computational Approaches to Historical Language Change 2022 (LChange'22)](https://languagechange.org/events/2022-acl-lchange/).
 
-## Description task
+## Task description
 
 The task will have two phases:
-1. discovery, and
-2. detection.
+1. graded change discovery, and
+2. binary change detection.
 
 
-### Phase 1
+### Phase 1 (Graded Change Discovery)
 
 Similar to Kurtyigit et al. (2021), we define the task of graded lexical semantic change
 discovery as follows:
@@ -21,52 +21,44 @@ The true degree of semantic change of a target word w will be given by the Jense
 distance (Donoso & Sanchez, 2017; Lin, 1991) between w’s word sense frequency distributions
 in C1 and C2 (cf. Schlechtweg, McGillivray, Hengchen, Dubossarsky, & Tahmasebi, 2020). 
 
-The two word sense frequency distributions will be estimated via human annotation of word usage
-samples for w from C1 and C2. Participants will be asked to predict a ranking of all target
-words according to their degree of semantic change where a higher rank means stronger change.
+The two word sense frequency distributions will be estimated via clustering of human semantic proximity judgments of word usage samples for w from C1 and C2 (Schlechtweg et al., 2020). Participants will be asked to predict a ranking of all target words according to their degree of semantic change where a higher rank means stronger change.
 Participants’ predictions will not be evaluated on the full set of target words, as these would be
-unfeasible to annotate, but on an (unpublished) random sample of ≈100 words from the full
+unfeasible to annotate, but on an (unpublished) random sample of ≈80 words from the full
 set of target words. The predictions will be scored against the ground truth via Spearman’s
-rank-order correlation coefficient (Bolboaca & J ̈antschi, 2006)
+rank-order correlation coefficient (Bolboaca & Jäntschi, 2006).
 
 
-### Phase 2
+### Phase 2 (Binary Change Detection)
 
-This phase contains two subtasks:
-  1. Binary Change Detection, and
-  2. Graded Lexical Semantic Change.
+Similar to Schlechtweg et al. (2020), we define binary change detection as follows:
 
-
-**Binary Change Detection** subtask is defined similar to Schlechtweg et al. (2020), as follows:
-
-    Given a target word w and two sets of its usages U1 and U2, decide whether w lost or
+    Given a target word *w* and two sets of its usages U1 and U2, decide whether *w* lost or
     gained senses from U1 to U2, or not.
 
 <!-- Besides, in this subtask will be considered two more binary tasks, *gain vs no gain* and *loss vs no loss*. -->
 
-**Binary Change Detection** (*change_binary vs no change_binary*) will be considered the primary binary task and the metrics to be reported are:
+The participants will be asked to classify a pre-selected set of content words (N, V, A) into two classes, 0 for no change and 1 for change. The true binary labels of word *w* will be inferred from *w*’s word sense frequency distributions
+in C1 and C2 (see above). Participants' predictions are scored against the ground truth with the following metrics:
   - F1 (main metric)
   - Precision
   - Recall
 
-In this task there are two thresholds to take into account, *n* and *k*. The first one represents the upper limit of instances of some sense that a word can have in a corpus and the second one represents the lower limit of instances of the same sense that the same word can have in the other corpus.
+For details on how word sense frequency distributions are inferred from the annotated data and how the change scores are calculated (including noise thresholds *n* and *k*) see the [WUG repository](https://github.com/Garrafao/WUGs).
 
-
-**Graded lexical Semantic Change** subtask is defined similar to the previous phase. The participants will be asked to rank a set of target words instead of the set of content words in the lemma vocabulary intersection.
+Participants' submission files only need to include those values correponding to the obligatory tasks in order to get a valid submission.
 
 
 ## Optional tasks
 
-In the **Binary Change Detection** subtask other binary tasks, *change_binary_gain vs no change_binary_gain* and *change_binary_loss vs no change_binary_loss* will be considered as secondary tasks and the metrics to be reported are:
- - F1
- - Precision
- - Recall
+**Graded Change Detection** subtask is defined similar to Graded Discovery. The only difference is that the target words correspond exactly to the hidden words on which we evaluate. Also, we will publish the annotated word usages (without annotations). Hence, participants can work with the exact annotated data. Participants will be scored with Spearman correlation.
 
-In both phases, another optional task called **COMPARE** will be considered. The objective of this task is to approximate the value of the annotators' annotations, remembering that this task considers all the uses of a word belonging to a corpus and the uses of the same word in another corpus. The metric to be reported is:
- - Spearman correlation.
+**Sense Gain Detection** is similar to Binary Change Detection subtask. However, only words which gained (not lost) senses will receive label 1. Participants will be scored with F1, Precision and Recall.
 
- **Important note**, COMPARE task could have the same values that the graded change task, but is not the same thing. For more information about how the graded change is calculated visit the [repository](https://github.com/Garrafao/WUGs).
+**Sense Loss Detection** is similar to Binary Change Detection subtask. However, only words which lost (not gained) senses will receive label 1. Participants will be scored with F1, Precision and Recall.
 
+**COMPARE** subtask asks participants to predict the inverse DURel COMPARE metric (Schlechtweg et al., 2018). This metric is defined as the average of human semantic proximity judgments of usages for *w* between C1 and C2.[^1]
+
+[^1]: Contrary to the original metric we first take the median of all annotator judgments for each usage pair and then average these values. For details see the [WUG repository](https://github.com/Garrafao/WUGs). Participants will be scored with Spearman correlation.
 
 
 <!-- **Binary Change Detection** subtask is a classification task that is a mix of a binary and multi-label problem,
