@@ -42,7 +42,7 @@ This phase contains two subtasks:
     Given a target word w and two sets of its usages U1 and U2, decide whether w lost or
     gained senses from U1 to U2, or not.
 
-Besides, in this subtask will be considered two more binary tasks, *gain vs no gain* and *loss vs no loss*.
+<!-- Besides, in this subtask will be considered two more binary tasks, *gain vs no gain* and *loss vs no loss*. -->
 
 **Binary Change Detection** (*change_binary vs no change_binary*) will be considered the primary binary task and the metrics to be reported are:
   - F1 (main metric)
@@ -57,10 +57,12 @@ In this task there are two thresholds to take into account, *n* and *k*. The fir
 
 ## Optional tasks
 
-The other binary tasks *change_binary_gain vs no change_binary_gain* and *change_binary_loss vs no change_binary_loss* will be considered secondary tasks and the metrics to be reported are:
+In the **Binary Change Detection** subtask other binary tasks, *change_binary_gain vs no change_binary_gain* and *change_binary_loss vs no change_binary_loss* will be considered as secondary tasks and the metrics to be reported are:
  - F1
  - Precision
  - Recall
+
+ 
 
 
 
