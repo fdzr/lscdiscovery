@@ -62,7 +62,10 @@ In the **Binary Change Detection** subtask other binary tasks, *change_binary_ga
  - Precision
  - Recall
 
- 
+In both phases, another optional task called COMPARE TASK will be considered. The objective of this task is to approximate the value of the annotators' annotations, remembering that this task considers all the uses of a word belonging to a corpus and the uses of the same word in another corpus. The metric to be reported is:
+ - Spearman correlation.
+
+ **Important note**, COMPARE task could have the same values that the graded change task, but is not the same thing. For more information about how the graded change is calculated visit the [repository](https://github.com/Garrafao/WUGs).
 
 
 
