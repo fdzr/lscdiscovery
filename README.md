@@ -44,19 +44,23 @@ This phase contains two subtasks:
 
 Besides, in this subtask will be considered two more binary tasks, *gain vs no gain* and *loss vs no loss*.
 
-**Binary Change Detection** (*change vs no change*) will be considered the primary binary task and the metrics to be reported are:
+**Binary Change Detection** (*change_binary vs no change_binary*) will be considered the primary binary task and the metrics to be reported are:
   - F1 (main metric)
   - Precision
   - Recall
 
-The other binary tasks *gain vs no gain* and *loss vs no loss* will be considered secondary tasks and the metrics to be reported are:
- - F1
- - Precision
- - Recall
+In this task there are two thresholds to take into account, *n* and *k*. The first one represents the upper limit of instances of some sense that a word can have in a corpus and the second one represents the lower limit of instances of the same sense that the same word can have in the other corpus.
 
 
 **Graded lexical Semantic Change** subtask is defined similar to the previous phase. The participants will be asked to rank a set of target words instead of the set of content words in the lemma vocabulary intersection.
 
+
+## Optional tasks
+
+The other binary tasks *change_binary_gain vs no change_binary_gain* and *change_binary_loss vs no change_binary_loss* will be considered secondary tasks and the metrics to be reported are:
+ - F1
+ - Precision
+ - Recall
 
 
 
