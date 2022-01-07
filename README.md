@@ -109,7 +109,7 @@ The format of *detection.tsv* file is defined as follows:
 
 	word	change_binary	change_binary_gain	change_binary_loss	change_graded	compare
 	word1	0|1    		0|1    			  0|1    		  score    	score
-	...    ...    		...    				...    		...    				...
+	...    ...    		...    			...    		...    				...
 
 ## Papers
 
