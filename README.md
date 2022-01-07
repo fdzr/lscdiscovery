@@ -17,7 +17,7 @@ discovery as follows:
 
 
 The participants will be asked to rank the set of content words (N, V, A) in the lemma vocabulary intersection of C1 and C2 according to their degree of semantic change between C1 to C2.
-The true degree of semantic change of a target word w will be given by the Jensen-Shannon
+The true degree of semantic change of a target word *w* will be given by the Jensen-Shannon
 distance (Donoso & Sanchez, 2017; Lin, 1991) between w’s word sense frequency distributions
 in C1 and C2 (cf. Schlechtweg, McGillivray, Hengchen, Dubossarsky, & Tahmasebi, 2020) (Schlechtweg et al., 2020). 
 
@@ -89,6 +89,27 @@ sense frequency distributions as described above. We will publish the annotated 
 human annotation as model input. Predictions will be scored against the ground truth via F1,
 Precision and Recall. -->
 
+## Submission format
+
+Participants will submit a Zip file named *answer* with the following structure:
+	
+	answer/
+		phase1/
+			discovery.tsv
+		phase2/
+			detection.tsv
+
+The format of *discovery.tsv* file is defined as follows:
+	
+	word	graded_change_discovery_score
+	word1	score (real value)
+	...     ...
+
+The format of *detection.tsv* file is defined as follows:
+
+	word	change_binary	change_binary_gain	change_binary_loss	change_graded	compare
+	word1	0|1				0|1					0|1					score 			score
+	...     ...             ...                 ...                 ...             ...
 
 ## Papers
 
