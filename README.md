@@ -43,6 +43,8 @@ in C1 and C2 (see above). Participants' predictions are scored against the groun
   - Precision
   - Recall
 
+The only difference compare to  Graded Change Discovery is that the target words correspond exactly to the hidden words on which we evaluate. Also, we will publish the annotated word usages (without annotations). Hence, participants can work with the exact annotated data.
+
 For details on how word sense frequency distributions are inferred from the annotated data and how the change scores are calculated (including noise thresholds *n* and *k*) see the [WUG repository](https://github.com/Garrafao/WUGs).
 
 Participants' submission files only need to include those values correponding to the obligatory tasks in order to get a valid submission.
