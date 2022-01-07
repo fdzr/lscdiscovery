@@ -19,7 +19,7 @@ discovery as follows:
 The participants will be asked to rank the set of content words (N, V, A) in the lemma vocabulary intersection of C1 and C2 according to their degree of semantic change between C1 to C2.
 The true degree of semantic change of a target word w will be given by the Jensen-Shannon
 distance (Donoso & Sanchez, 2017; Lin, 1991) between w’s word sense frequency distributions
-in C1 and C2 (cf. Schlechtweg, McGillivray, Hengchen, Dubossarsky, & Tahmasebi, 2020). 
+in C1 and C2 (cf. Schlechtweg, McGillivray, Hengchen, Dubossarsky, & Tahmasebi, 2020) (Schlechtweg et al., 2020). 
 
 The two word sense frequency distributions will be estimated via clustering of human semantic proximity judgments of word usage samples for w from C1 and C2 (Schlechtweg et al., 2020). Participants will be asked to predict a ranking of all target words according to their degree of semantic change where a higher rank means stronger change.
 Participants’ predictions will not be evaluated on the full set of target words, as these would be
