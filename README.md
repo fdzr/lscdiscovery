@@ -107,7 +107,7 @@ The format of *discovery.tsv* file is defined as follows:
 
 The format of *detection.tsv* file is defined as follows:
 
-	word	binary_change	sense_gain_detection	sense_loss_detection	change_graded	compare
+	word	binary_change	sense_gain_detection	sense_loss_detection	graded_change	compare
 	word1	0|1    		0|1    			  0|1    		  score    	score
 	...    ...    		...    			  ...    		    ...    	...
 
