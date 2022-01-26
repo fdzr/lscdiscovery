@@ -91,27 +91,24 @@ Precision and Recall. -->
 
 ## Submission format
 
-Participants will submit a Zip file named *answer* with the following structure:
+Participants will submit a Zip file named *answer* for both phases with the following structure:
 	
 	answer/
-		phase1/
-			discovery.tsv
-		phase2/
-			detection.tsv
+		submission.tsv
 
-The format of *discovery.tsv* file is defined as follows:
+The format of *submission.tsv* file for the *pase 1* is defined as follows:
 	
-	word	graded_change_discovery_score
+	word	change_graded
 	word1	score (real value)
 	...     ...
 
-The format of *detection.tsv* file is defined as follows:
+The format of *submission.tsv* for the *phase 2* file is defined as follows:
 
-	word	binary_change	sense_gain_detection	sense_loss_detection	graded_change	compare
+	word	change_binary	change_binary_gain	change_binary_loss	change_graded	COMPARE
 	word1	0|1    		0|1    			  0|1    		  score    	score
 	...    ...    		...    			  ...    		    ...    	...
 
-Note that *binary_change* column correponds to the obligatory task, and the other columns correspond to the other optional tasks.
+Note that *change_binary* column correponds to the obligatory task, and the other columns correspond to the other optional tasks.
 
 ## Papers
 
