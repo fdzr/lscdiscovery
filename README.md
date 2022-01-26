@@ -115,16 +115,16 @@ Note that *change_binary* column correponds to the obligatory task, and the othe
 Shared task participants are invited to submit a system description paper to be included in the proceedings of LChange'22. Papers will have a maximum length of 4 pages (excluding acknowledgements/bibliography/appendices). System description papers will be peer-reviewed, so review is mandatory for all who submit a paper.
 
 
-## Important dates
+## Important dates (will be rescheduled)
 
-- **January 10**: The shared task is announced. Practice phase starts.
-- **January 21**: Development phase starts. Development set is released.
-- **January 30**: Evaluation phase starts. Corpora and target words (depending on the subtask) are released.
-- **February 20**: Evaluation phase and submission period ends.
-- **February 22**: Shared task results announcenment.
-- **March 14**: Paper submission deadline
-- **March 29**: Notification of paper acceptance
-- **April 10**: Camera-ready papers due
+- ~~**January 10**~~: The shared task is announced. Practice phase starts.
+- ~~**January 21**~~: Development phase starts. Development set is released.
+- ~~**January 30**~~: Evaluation phase starts. Corpora and target words (depending on the subtask) are released.
+- ~~**February 20**~~: Evaluation phase and submission period ends.
+- ~~**February 22**~~: Shared task results announcenment.
+- ~~**March 14**~~: Paper submission deadline
+- ~~**March 29**~~: Notification of paper acceptance
+- ~~**April 10**~~: Camera-ready papers due
 
 
 ## Organizers
