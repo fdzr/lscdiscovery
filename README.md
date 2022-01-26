@@ -110,6 +110,20 @@ The format of *submission.tsv* for the *phase 2* file is defined as follows:
 
 Note that *change_binary* column correponds to the obligatory task, and the other columns correspond to the other optional tasks.
 
+## Baselines
+
+Starting kit for the phase 1 of the shared task is provided, you can download it using the following command: 
+
+    wget https://https://users.dcc.uchile.cl/~fzamora/starting_kit.zip
+
+The code draws mainly from the [LSCDetection repository](https://github.com/Garrafao/LSCDetection).
+
+Under `code/` is provided an implementation of a baseline for the phase 1 of the shared task:
+1. skip-gram negative sampling + orthogonal procrustes + cosine distance.
+
+For more details, please read de the `Readme` file inside the starting_kit folder.
+
+
 ## Papers
 
 Shared task participants are invited to submit a system description paper to be included in the proceedings of LChange'22. Papers will have a maximum length of 4 pages (excluding acknowledgements/bibliography/appendices). System description papers will be peer-reviewed, so review is mandatory for all who submit a paper.
