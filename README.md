@@ -58,7 +58,7 @@ Participants' submission files only need to include those values correponding to
 
 **Sense Loss Detection** is similar to Binary Change Detection subtask. However, only words which lost (not gained) senses will receive label 1. Participants will be scored with F1, Precision and Recall.
 
-**COMPARE** subtask asks participants to predict the inverse DURel COMPARE metric (Schlechtweg et al., 2018). This metric is defined as the average of human semantic proximity judgments of usages for *w* between C1 and C2.[^1]
+**COMPARE** subtask asks participants to predict the inverse DURel COMPARE metric (Schlechtweg et al., 2018). This metric is defined as the average of human semantic proximity judgments of usages for *w* between C1 and C2.[^1] Participants will be scored with Spearman correlation.
 
 [^1]: Contrary to the original metric we first take the median of all annotator judgments for each usage pair and then average these values. For details see the [WUG repository](https://github.com/Garrafao/WUGs). Participants will be scored with Spearman correlation.
 
