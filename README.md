@@ -123,7 +123,7 @@ Under `code/` is provided an implementation of a baseline for the phase 1 of the
 
 For more details, please read de the `Readme` file inside the starting_kit folder.
 
-**The submissions will be made through Codalab, which will be make public soon**
+**The submissions will be made through Codalab, which will be make public soon**.
 
 
 ## Papers
