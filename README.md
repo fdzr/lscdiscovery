@@ -215,3 +215,6 @@ Communication between the participants and the organizers will take place on a T
 
 ### Acknowledgements
 This task is funded by ANID FONDECYT grant 11200290, U-Inicia VID Project UI-004/20 and ANID - Millennium Science Initiative Program - Code ICN17 002.
+
+This task also was supported by  [SemRel Group (DFG Grants SCHU 2580/1 and SCHU 
+2580/2)](https://www.ims.uni-stuttgart.de/en/institute/team/Schulte-im-Walde-00001/).
