@@ -112,9 +112,10 @@ Note that *change_binary* column correponds to the obligatory task, and the othe
 
 ## Baselines
 
-Starting kit for the phase 1 of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/7959483/starting_kit.zip). 
+Starting kit for the phase 1 of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/7980001/starting_kit.zip). 
 
-The code draws mainly from the [LSCDetection repository](https://github.com/Garrafao/LSCDetection).
+The code draws mainly from the [LSCDetection repository](https://github.com/Garrafao/LSCDetection).[starting_kit.zip]
+
 
 Under `code/` is provided an implementation of a baseline for the phase 1 of the shared task:
 1. skip-gram negative sampling + orthogonal procrustes + cosine distance.
