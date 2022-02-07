@@ -112,16 +112,34 @@ Note that *change_binary* column correponds to the obligatory task, and the othe
 
 ## Baselines
 
-Starting kit for the phase 1 of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/7959483/starting_kit.zip). 
+Starting kit for both phases of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/7959483/starting_kit.zip). 
 
 The code draws mainly from the [LSCDetection repository](https://github.com/Garrafao/LSCDetection).
 
-Under `code/` is provided an implementation of a baseline for the phase 1 of the shared task:
+Under `code/` is provided an implementation of two baselines for both phases of the shared task:
 1. skip-gram negative sampling + orthogonal procrustes + cosine distance.
+2. normalized frequency difference (FD)
 
 For more details, please read de the `Readme` file inside the starting_kit folder.
 
 **The submissions will be made through Codalab, which will be make public soon**.
+
+
+## Corpora
+
+In this shared task there are two corpora available, corrpesponding to different time periods.
+
+| Corpus | Time period  | Size|
+| ------ | -----------  | ----|
+| Old corpus| 1810 - 1906 | ~13 M|
+|------- | -----------  | ----|
+|Modern corpus| 1994 - 2020 | ~ 22M|
+
+**Old corpus** was created using different sources freely available from [Project Gutenberg](https://www.gutenberg.org/browse/languages/es).
+
+**Modern corpus** was created using different sources available from the [OPUS project](https://opus.nlpl.eu/). 
+
+Each corpus contains four version of the original dataset (raw, tokenized, lemmatized and post-tagged).
 
 
 ## Papers
