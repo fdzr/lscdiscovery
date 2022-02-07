@@ -99,6 +99,7 @@ Participants will submit a Zip file named *answer* for both phases with the foll
 The format of *submission.tsv* file for the *pase 1* is defined as follows:
 	
 	word	change_graded
+
 	word1	score (real value)
 	...     ...
 
@@ -112,7 +113,7 @@ Note that *change_binary* column correponds to the obligatory task, and the othe
 
 ## Baselines
 
-Starting kit for both phases of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/7959483/starting_kit.zip). 
+Starting kit for both phases of the shared task is provided, you can download it from [[here](https://github.com/fdzr/lscdiscovery/files/8012986/starting_kit.zip). 
 
 The code draws mainly from the [LSCDetection repository](https://github.com/Garrafao/LSCDetection).
 
