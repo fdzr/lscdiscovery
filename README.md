@@ -132,7 +132,6 @@ In this shared task there are two corpora available, corrpesponding to different
 | Corpus | Time period  | Size|
 | ------ | -----------  | ----|
 | Old corpus| 1810 - 1906 | ~13 M|
-|------- | -----------  | ----|
 |Modern corpus| 1994 - 2020 | ~ 22M|
 
 **Old corpus** was created using different sources freely available from [Project Gutenberg](https://www.gutenberg.org/browse/languages/es).
