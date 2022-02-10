@@ -111,6 +111,7 @@ The format of *submission.tsv* for the *phase 2* file is defined as follows:
 
 Note that *change_binary* column correponds to the obligatory task, and the other columns correspond to the other optional tasks.
 
+
 ## Baselines
 
 Starting kit for both phases of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/8012986/starting_kit.zip). 
@@ -144,6 +145,8 @@ Each corpus contains four version of the original dataset (raw, tokenized, lemma
 ## Target words
 
 The target words were sampled from a restricted population, this population being the vocabulary intersection between the two corpora. The vocabulary intersection contains only content words (adjectives, adverbs, verbs and nouns). One of the characteristics of this population is that each word has more than 40 and 73 occurrences in corpora 1 and 2 respectively. In this process 100 words were extracted.
+
+You can download the target words for phase 1 from [here](https://github.com/fdzr/lscdiscovery/files/8041186/population_restricted.txt).
 
 
 ## Papers
