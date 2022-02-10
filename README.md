@@ -128,7 +128,7 @@ For more details, please read de the `Readme` file inside the starting_kit folde
 
 ## Corpora
 
-In this shared task there are two corpora available, corrpesponding to different time periods.
+In this shared task there are two corpora available, corresponding to different time periods.
 
 | Corpus | Time period  | Size|
 | ------ | -----------  | ----|
