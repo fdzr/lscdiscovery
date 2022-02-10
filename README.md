@@ -141,6 +141,10 @@ In this shared task there are two corpora available, corrpesponding to different
 
 Each corpus contains four version of the original dataset (raw, tokenized, lemmatized and post-tagged).
 
+## Target words
+
+The target words were sampled from a restricted population, this population being the vocabulary intersection between the two corpora. The vocabulary intersection contains only content words (adjectives, adverbs, verbs and nouns). One of the characteristics of this population is that each word has more than 40 and 73 occurrences in corpora 1 and 2 respectively. In this process 100 words were extracted.
+
 
 ## Papers
 
