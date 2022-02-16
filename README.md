@@ -155,16 +155,16 @@ Each corpus contains four version of the original dataset (raw, tokenized, lemma
 Shared task participants are invited to submit a system description paper to be included in the proceedings of LChange'22. Papers will have a maximum length of 4 pages (excluding acknowledgements/bibliography/appendices). System description papers will be peer-reviewed, so review is mandatory for all who submit a paper.
 
 
-## Important dates (will be rescheduled)
+## Important dates
 
-- ~~**January 10**~~: The shared task is announced. Practice phase starts.
-- ~~**January 21**~~: Development phase starts. Development set is released.
-- ~~**January 30**~~: Evaluation phase starts. Corpora and target words (depending on the subtask) are released.
-- ~~**February 20**~~: Evaluation phase and submission period ends.
-- ~~**February 22**~~: Shared task results announcenment.
-- ~~**March 14**~~: Paper submission deadline
-- ~~**March 29**~~: Notification of paper acceptance
-- ~~**April 10**~~: Camera-ready papers due
+- **February 18**: Development phase 1 (Discovery) starts. It will be published the annotated data for development.
+- **February 25**: Development phase 2 (Detection) starts.
+- **March 4**: Evaluation phase 1 (Discovery) starts. 
+- **March 11**: Evaluation phase 2 (Detection) starts.
+- **March 19**: Results are announced.
+- **March 26**: Paper submission deadline.
+- **April 6**: Notification of paper acceptance
+- **April 10**: Camera-ready papers due
 
 
 ## Organizers
