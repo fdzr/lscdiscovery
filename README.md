@@ -100,8 +100,8 @@ The format of *submission.tsv* file for the *pase 1* is defined as follows:
 	
 	word	change_graded COMPARE
 
-	word1	score (real value)  score (real value)
-	...     ...
+	word1	score  score
+	...     ...     ...   
 
 Note that *change_graded* column corresponds to the obligatory task, and the other column labeled *COMPARE* correspond to the other optional task. 
 
