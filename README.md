@@ -98,10 +98,14 @@ Participants will submit a Zip file named *answer* for both phases with the foll
 
 The format of *submission.tsv* file for the *pase 1* is defined as follows:
 	
-	word	change_graded
+	word	change_graded COMPARE
 
-	word1	score (real value)
+	word1	score (real value)  score (real value)
 	...     ...
+
+Note that *change_graded* column corresponds to the obligatory task, and the other column labeled *COMPARE* correspond to the other optional task. 
+
+It's important to say that the binary subtasks were excluded from this phase because the participants need to use the full corpora for discovery and we don't know how well the binary scores obtained on small annotated samples generalize the full corpora.
 
 The format of *submission.tsv* for the *phase 2* file is defined as follows:
 
