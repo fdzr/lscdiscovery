@@ -98,10 +98,10 @@ Participants will submit a Zip file named *answer* for both phases with the foll
 
 The format of *submission.tsv* file for the *pase 1* is defined as follows:
 	
-	word	change_graded COMPARE
+	word	change_graded   COMPARE
 
-	word1	score  score
-	...     ...     ...   
+	word1	score     score
+	...     ...         ...   
 
 Note that *change_graded* column corresponds to the obligatory task, and the other column labeled *COMPARE* correspond to the other optional task. 
 
