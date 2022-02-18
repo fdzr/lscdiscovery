@@ -161,9 +161,9 @@ Shared task participants are invited to submit a system description paper to be 
 
 ## Important dates
 
-- **February 18**: Development phase 1 (Discovery) starts. It will be published the annotated data for development.
-- **February 25**: Development phase 2 (Detection) starts.
-- **March 4**: Evaluation phase 1 (Discovery) starts. 
+- **February 19**: Development phase 1 (Discovery) starts. It will be published the annotated data for development.
+- **February 26**: Development phase 2 (Detection) starts.
+- **March 5**: Evaluation phase 1 (Discovery) starts. 
 - **March 11**: Evaluation phase 2 (Detection) starts.
 - **March 19**: Results are announced.
 - **March 26**: Paper submission deadline.
