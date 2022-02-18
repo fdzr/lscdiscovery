@@ -103,7 +103,7 @@ The format of *submission.tsv* file for the *pase 1* is defined as follows:
 	word1	score           score
 	...     ...              ...   
 
-Note that *change_graded* column corresponds to the obligatory task, and the other column labeled *COMPARE* correspond to the other optional task. 
+Note that *change_graded* column corresponds to the obligatory task, and the other column labeled *COMPARE* corresponds to the other optional task. 
 
 It's important to say that the binary subtasks were excluded from this phase because the participants need to use the full corpora for discovery and we don't know how well the binary scores obtained on small annotated samples generalize the full corpora.
 
