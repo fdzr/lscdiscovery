@@ -116,9 +116,9 @@ The format of *submission.tsv* for the *phase 2* file is defined as follows:
 Note that *change_binary* column correponds to the obligatory task, and the other columns correspond to the other optional tasks.
 
 
-## Baselines
+## Baselines[starting_kit.zip]
 
-Starting kit for both phases of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/8049357/starting_kit.zip). 
+Starting kit for both phases of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/8093491/starting_kit.zip). 
 
 The code draws mainly from the [LSCDetection repository](https://github.com/Garrafao/LSCDetection).
 
