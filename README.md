@@ -103,7 +103,7 @@ The format of *submission.tsv* file for the *pase 1* is defined as follows:
 	word1	score           score
 	...     ...              ...   
 
-Note that *change_graded* column corresponds to the obligatory task, and the other column labeled *COMPARE* correspond to the other optional task. 
+Note that *change_graded* column corresponds to the obligatory task, and the other column labeled *COMPARE* corresponds to the other optional task. 
 
 It's important to say that the binary subtasks were excluded from this phase because the participants need to use the full corpora for discovery and we don't know how well the binary scores obtained on small annotated samples generalize the full corpora.
 
@@ -118,7 +118,7 @@ Note that *change_binary* column correponds to the obligatory task, and the othe
 
 ## Baselines
 
-Starting kit for both phases of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/8049357/starting_kit.zip). 
+Starting kit for both phases of the shared task is provided, you can download it from [here](https://github.com/fdzr/lscdiscovery/files/8093491/starting_kit.zip). 
 
 The code draws mainly from the [LSCDetection repository](https://github.com/Garrafao/LSCDetection).
 
@@ -148,7 +148,7 @@ Each corpus contains four version of the original dataset (raw, tokenized, lemma
 
 ## Target words
 
-- Development Phase 1 (Graded Discovery): The [target words](https://github.com/fdzr/lscdiscovery/files/8041186/population_restricted.txt) correspond to the content word (adjectives, adverbs, verbs and nouns) vocabulary intersection between the two lemmatized corpora above a frequency threshold. The frequency threshold is 40 and 73 for corpus 1 and 2 respectively. Uploaded submissions will be scored against 20 hidden words from the full target word list which were annotated for semantic change.
+- Development Phase 1 (Graded Discovery): The [target words](https://github.com/fdzr/lscdiscovery/files/8093428/population_restricted.txt) correspond to the content word (adjectives, adverbs, verbs and nouns) vocabulary intersection between the two lemmatized corpora above a frequency threshold. The frequency threshold is 40 and 73 for corpus 1 and 2 respectively. Uploaded submissions will be scored against 20 hidden words from the full target word list which were annotated for semantic change.
 - Development Phase 2 (Binary Detection): The [target words](link) correspond to the 20 hidden words from Phase 1. Participants get access to the annotated usages (20+20 from each corpus), human annotations and gold change scores for development. Uploaded submissions will be scored against the 20 target words.
 - Evaluation Phase 1 (Graded Discovery): The [target words](link) correspond to the content word (adjectives, adverbs, verbs and nouns) vocabulary intersection between the two lemmatized corpora above a frequency threshold. The frequency threshold is 40 and 73 for corpus 1 and 2 respectively. Uploaded submissions will be scored against 60 hidden words from the full target word list which were annotated for semantic change.
 - Evaluation Phase 2 (Binary Detection): The [target words](link) correspond to the 60 hidden words from Phase 1. Participants get access to the annotated usages (20+20 from each corpus). Uploaded submissions will be scored against the 60 target words.
