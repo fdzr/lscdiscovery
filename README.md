@@ -158,15 +158,15 @@ Each corpus contains four version of the original dataset (raw, tokenized, lemma
 
 In this research, spacy was used as a lemmatizer for the Spanish text. This library did not produce good results for some words, especially those from the old corpus. 
 
-Example:
+**Example**:
     "Decidióse ésta por Teresa la expósita, y así se vio a la vagamunda tomar bajo su amparo a la pobre desheredada como ella."
 
-After executed the lemmatizer:
+**After executed the lemmatizer**:
     Decidióse este por Teresa el expósita , y así él ver a el vagamunda tomar bajo su amparo a el pobre desheredado como él .
 
 As can be seen, the lemma of the word *Decidióse* was not found, nor was the word converted to lowercase.
 
-Note: Spacy version 3.1.1 was used and the Spanish model used was es_core_news_md (3.1.0).
+**Note**: Spacy version 3.1.1 was used and the Spanish model used was es_core_news_md (3.1.0).
 
 
 ## Papers
