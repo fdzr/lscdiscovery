@@ -128,7 +128,7 @@ Under `code/` is provided an implementation of two baselines for both phases of 
 
 For more details, please read de the `Readme` file inside the starting_kit folder.
 
-**The submissions will be made through Codalab, which will be make public soon**.
+**The submissions will be made through Codalab, following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189)**.
 
 
 ## Corpora
