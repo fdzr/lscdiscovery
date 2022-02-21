@@ -154,6 +154,21 @@ Each corpus contains four version of the original dataset (raw, tokenized, lemma
 - Evaluation Phase 2 (Binary Detection): The [target words](link) correspond to the 60 hidden words from Phase 1. Participants get access to the annotated usages (20+20 from each corpus). Uploaded submissions will be scored against the 60 target words.
 
 
+## Lemmatizer-related issues
+
+In this research, spacy was used as a lemmatizer for the Spanish text. This library did not produce good results for some words, especially those from the old corpus. 
+
+Example:
+    "Decidióse ésta por Teresa la expósita, y así se vio a la vagamunda tomar bajo su amparo a la pobre desheredada como ella."
+
+After executed the lemmatizer:
+    Decidióse este por Teresa el expósita , y así él ver a el vagamunda tomar bajo su amparo a el pobre desheredado como él .
+
+As can be seen, the lemma of the word *Decidióse* was not found, nor was the word converted to lowercase.
+
+Note: Spacy version 3.1.1 was used and the Spanish model used was es_core_news_md (3.1.0).
+
+
 ## Papers
 
 Shared task participants are invited to submit a system description paper to be included in the proceedings of LChange'22. Papers will have a maximum length of 4 pages (excluding acknowledgements/bibliography/appendices). System description papers will be peer-reviewed, so review is mandatory for all who submit a paper.
