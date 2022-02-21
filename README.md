@@ -1,6 +1,6 @@
 The shared task on Lexical Semantic Change Discovery (LSCDiscovery) in Spanish will be carried out at the [3rd International Workshop on Computational Approaches to Historical Language Change 2022 (LChange'22)](https://languagechange.org/events/2022-acl-lchange/).
 
-You can participate in the competition following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189#results).
+You can participate in the competition following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189).
 
 ## Task description
 
