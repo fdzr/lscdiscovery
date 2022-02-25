@@ -1,6 +1,6 @@
 The shared task on Lexical Semantic Change Discovery (LSCDiscovery) in Spanish will be carried out at the [3rd International Workshop on Computational Approaches to Historical Language Change 2022 (LChange'22)](https://languagechange.org/events/2022-acl-lchange/).
 
-<!-- You can participate in the competition following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189). -->
+You can participate in the competition following this [link](https://codalab.lisn.upsaclay.fr/competitions/2243).
 
 ## Task description
 
@@ -65,32 +65,6 @@ Participants' submission files only need to include those values correponding to
 [^1]: Contrary to the original metric we first take the median of all annotator judgments for each usage pair and then average these values. For details see the [WUG repository](https://github.com/Garrafao/WUGs). Participants will be scored with Spearman correlation.
 
 
-<!-- **Binary Change Detection** subtask is a classification task that is a mix of a binary and multi-label problem,
-with 3 possible labels (change/no change, gain sense/no gain sense, loss/no loss). For this task, participants are asked
-to provide predictions only for the annotated target words. The task has 3 possible labels, but the main evaluation metric
-will be F1 and only change vs no change will be considered, similar to Schlechtweg et al. (2020), Precision and Recall
-will also be reported. For gain sense vs no gain sense and loss vs no loss will be considered as experimental tasks and
-F1, Recall and Precision will be reported. -->
-
-
-<!-- **Hard Detection** subtask is a classification task which is a mixture of a binary and multi-label problem,
-with 3 possible labels (change/no change, gain sense/no gain sense, loss/no loss). For this task, participants are asked to provide predictions only for the annotated target words. The task has 3 possible labels but the main evaluation metric will only consider change vs no change similar to Schlechtweg et al. (2020), 3-level classification performance will be considered as a secondary metric. The true change labels will be derived straightforwardly from the annotated word sense frequency distributions as described above. We will publish the annotated usages without human annotation as model input. Predictions will be scored against the ground truth via F1, Precision and Recall.  -->
-
-<!-- (no change/sense gain/sense loss) -->
-
-
-<!-- Similar to Schlechtweg et al. (2020), we define the task of binary change detection as follows:
-    
-    Given a target word w and two sets of its usages U1 and U2, decide whether w lost or
-    gained senses from U1 to U2, or not.
-
-
-For this task, participants are asked to provide binary predictions only for the annotated target
-words. The true binary change labels will be derived straightforwardly from the annotated word
-sense frequency distributions as described above. We will publish the annotated usages without
-human annotation as model input. Predictions will be scored against the ground truth via F1,
-Precision and Recall. -->
-
 ## Submission format
 
 Participants will submit a Zip file named *answer* for both phases with the following structure:
@@ -131,7 +105,7 @@ Under `code/` is provided an implementation of two baselines for both phases of 
 
 For more details, please read de the `Readme` file inside the starting_kit folder.
 
-<!-- **The submissions will be made through Codalab, following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189)**. -->
+**The submissions will be made through Codalab, following this [link](https://codalab.lisn.upsaclay.fr/competitions/2243)**.
 
 **The submissions will be made through Codalab, the link will be available soon**.
 
