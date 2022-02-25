@@ -107,7 +107,6 @@ For more details, please read de the `Readme` file inside the starting_kit folde
 
 **The submissions will be made through Codalab, following this [link](https://codalab.lisn.upsaclay.fr/competitions/2243)**.
 
-**The submissions will be made through Codalab, the link will be available soon**.
 
 ## Corpora
 
