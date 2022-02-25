@@ -1,6 +1,6 @@
 The shared task on Lexical Semantic Change Discovery (LSCDiscovery) in Spanish will be carried out at the [3rd International Workshop on Computational Approaches to Historical Language Change 2022 (LChange'22)](https://languagechange.org/events/2022-acl-lchange/).
 
-You can participate in the competition following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189).
+<!-- You can participate in the competition following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189). -->
 
 ## Task description
 
@@ -131,8 +131,9 @@ Under `code/` is provided an implementation of two baselines for both phases of 
 
 For more details, please read de the `Readme` file inside the starting_kit folder.
 
-**The submissions will be made through Codalab, following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189)**.
+<!-- **The submissions will be made through Codalab, following this [link](https://codalab.lisn.upsaclay.fr/competitions/2189)**. -->
 
+**The submissions will be made through Codalab, the link will be available soon**.
 
 ## Corpora
 
@@ -179,12 +180,12 @@ Shared task participants are invited to submit a system description paper to be 
 
 ## Important dates
 
-- **February 21**: Development phase 1 (Discovery) starts. It will be published the annotated data for development.
-- **February 28**: Development phase 2 (Detection) starts.
-- **March 7**: Evaluation phase 1 (Discovery) starts. 
-- **March 13**: Evaluation phase 2 (Detection) starts.
-- **March 19**: Results are announced.
-- **March 26**: Paper submission deadline.
+- **February 28**: Development phase 1 (Discovery) starts. It will be published the annotated data for development.
+- **February 7**: Development phase 2 (Detection) starts.
+- **March 14**: Evaluation phase 1 (Discovery) starts. 
+- **March 19**: Evaluation phase 2 (Detection) starts.
+- **March 26**: Results are announced.
+- **April 1**: Paper submission deadline.
 - **April 6**: Notification of paper acceptance
 - **April 10**: Camera-ready papers due
 
