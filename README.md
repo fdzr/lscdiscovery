@@ -123,6 +123,8 @@ In this shared task there are two corpora available, corresponding to different 
 
 Each corpus contains four version of the original dataset (raw, tokenized, lemmatized and post-tagged).
 
+Annotated development data with sampled uses, clusterings, change scores, visualizations, and more stats are available [here](https://zenodo.org/record/6300105). 
+
 ## Target words
 
 - Development Phase 1 (Graded Discovery): The [target words](https://github.com/fdzr/lscdiscovery/files/8138960/population_restricted.txt) correspond to the content word (adjectives, adverbs, verbs and nouns) vocabulary intersection between the two lemmatized corpora above a frequency threshold. The frequency threshold is 40 and 73 for corpus 1 and 2 respectively. Uploaded submissions will be scored against 20 hidden words from the full target word list which were annotated for semantic change.
