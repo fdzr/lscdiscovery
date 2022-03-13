@@ -129,10 +129,10 @@ Annotated development data with sampled uses, clusterings, change scores, visual
 
 - Development Phase 1 (Graded Discovery): The [target words](https://github.com/fdzr/lscdiscovery/files/8138960/population_restricted.txt) correspond to the content word (adjectives, adverbs, verbs and nouns) vocabulary intersection between the two lemmatized corpora above a frequency threshold. The frequency threshold is 40 and 73 for corpus 1 and 2 respectively. Uploaded submissions will be scored against 20 hidden words from the full target word list which were annotated for semantic change.
 - Development Phase 2 (Binary Detection): The [target words](https://github.com/fdzr/lscdiscovery/files/8209314/target_words_development_phase2.txt) correspond to the 20 hidden words from Phase 1. Participants get access to the annotated usages (20+20 from each corpus), human annotations and gold change scores for development. Uploaded submissions will be scored against the 20 target words. The evaluation script for phase 2 ignores additional words other than the target words as input in phase 2. 
-- Evaluation Phase 1 (Graded Discovery): The [target words](link) correspond to the content word (adjectives, adverbs, verbs and nouns) vocabulary intersection between the two lemmatized corpora above a frequency threshold. The frequency threshold is 40 and 73 for corpus 1 and 2 respectively. Uploaded submissions will be scored against 60 hidden words from the full target word list which were annotated for semantic change.
+- Evaluation Phase 1 (Graded Discovery): The [target words](https://github.com/fdzr/lscdiscovery/files/8239559/target_words_evaluation_phase1.txt)
+ correspond to the content word (adjectives, adverbs, verbs and nouns) vocabulary intersection between the two lemmatized corpora above a frequency threshold. The frequency threshold is 40 and 73 for corpus 1 and 2 respectively. Uploaded submissions will be scored against 60 hidden words from the full target word list which were annotated for semantic change.
 - Evaluation Phase 2 (Binary Detection): The [target words](link) correspond to the 60 hidden words from Phase 1. Participants get access to the annotated usages (20+20 from each corpus). Uploaded submissions will be scored against the 60 target words. The evaluation script for phase 2 ignores additional words other than the target words as input in phase 2.
 
-<!--  -->
 
 
 ## Lemmatizer-related issues
