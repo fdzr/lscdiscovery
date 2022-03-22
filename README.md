@@ -67,6 +67,7 @@ Participants' submission files only need to include those values correponding to
 
 ## Submission format
 
+
 Participants will submit a Zip file named *answer* for both phases with the following structure:
 	
 	answer/
@@ -126,6 +127,11 @@ Each corpus contains four version of the original dataset (raw, tokenized, lemma
 Annotated development data with sampled uses, clusterings, change scores, visualizations, and more stats are available [here](https://zenodo.org/record/6300105). 
 
 ## Target words
+
+#### Uses
+
+- You can download the uses of the development set from [here](https://github.com/fdzr/lscdiscovery/files/8325500/uses_development_set.zip).
+- You can download the uses of the evaluation set from [here](https://github.com/fdzr/lscdiscovery/files/8325509/uses_evaluation_set.zip).
 
 - Development Phase 1 (Graded Discovery): The [target words](https://github.com/fdzr/lscdiscovery/files/8138960/population_restricted.txt) correspond to the content word (adjectives, adverbs, verbs and nouns) vocabulary intersection between the two lemmatized corpora above a frequency threshold. The frequency threshold is 40 and 73 for corpus 1 and 2 respectively. Uploaded submissions will be scored against 20 hidden words from the full target word list which were annotated for semantic change.
 - Development Phase 2 (Binary Detection): The [target words](https://github.com/fdzr/lscdiscovery/files/8209314/target_words_development_phase2.txt) correspond to the 20 hidden words from Phase 1. Participants get access to the annotated usages (20+20 from each corpus), human annotations and gold change scores for development. Uploaded submissions will be scored against the 20 target words. The evaluation script for phase 2 ignores additional words other than the target words as input in phase 2. 
