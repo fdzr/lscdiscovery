@@ -128,7 +128,7 @@ Annotated development data with sampled uses, clusterings, change scores, visual
 
 #### Issues related to annotated development data regarding their indices
 
-The file uses of each word has different fields. Some of them are *lemma*, *context* and *indexes_target_token*. The *indexes_target_token* field recovers a substring from the *context* field, this substring is a word derived from the *lemma* field.
+The usage file for each word has different fields. Some of them are *lemma*, *context* and *indexes_target_token*. The *indexes_target_token* field retrieves a substring from the *context* field, this substring is a word derived from the *lemma* field.
 
 **Example**
 
