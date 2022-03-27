@@ -124,7 +124,24 @@ In this shared task there are two corpora available, corresponding to different 
 
 Each corpus contains four version of the original dataset (raw, tokenized, lemmatized and post-tagged).
 
-Annotated development data with sampled uses, clusterings, change scores, visualizations, and more stats are available [here](https://zenodo.org/record/6300105). 
+Annotated development data with sampled uses, clusterings, change scores, visualizations, and more stats are available [here](https://zenodo.org/record/6300105).
+
+#### Issues related to annotated development data regarding their indices
+
+The file uses of each word has different fields. Some of them are *lemma*, *context* and *indexes_target_token*. The *indexes_target_token* field recovers a substring from the *context* field, this substring is a word derived from the *lemma* field.
+
+**Example**
+
+    *lemma*: sexo
+
+    *context*:  136. Los apellidos de familia no varían de terminación para los diferentes sexos; y así se dice «don Pablo Herrera», «doña Juana Hurtado», «doña Isabel Donoso». 137 (b).
+
+    *indexes_target_token*: 75:81
+
+    After retrieving the substring, the result is: *sexos;* instead of *sexo*
+
+**Note**: Many usage files contain this common error, please be careful when working with these files. A new version of these files will be available very soon.
+
 
 ## Target words
 
@@ -168,9 +185,9 @@ Shared task participants are invited to submit a system description paper to be 
 - **March 14**: Evaluation phase 1 (Discovery) starts. 
 - **March 22**: Evaluation phase 2 (Detection) starts.
 - **March 29**: Results are announced.
-- **April 1 (preliminary)**: Paper submission deadline.
-- **April 6 (preliminary)**: Notification of paper acceptance
-- **April 10 (preliminary)**: Camera-ready papers due
+- **April 9**: Paper submission deadline.
+- **April 15**: Notification of paper acceptance
+- **April 20**: Camera-ready papers due
 
 
 ## Organizers
