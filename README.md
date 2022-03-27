@@ -184,6 +184,7 @@ Shared task participants are invited to submit a system description paper to be 
 - **March 9**: Development phase 2 (Detection) starts.
 - **March 14**: Evaluation phase 1 (Discovery) starts. 
 - **March 22**: Evaluation phase 2 (Detection) starts.
+- **March 28**: Competition ends.
 - **March 29**: Results are announced.
 - **April 9**: Paper submission deadline.
 - **April 15**: Notification of paper acceptance
