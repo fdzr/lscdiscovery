@@ -189,7 +189,7 @@ Participants are kindly requested to cite the task with the following bibtex ent
   publisher = {Association for Computational Linguistics}
 }
 ```
-The submission site is now open: [https://openreview.net/group?id=aclweb.org/ACL/2022/Workshop/LChange_LSCD].
+The submission [site](https://openreview.net/group?id=aclweb.org/ACL/2022/Workshop/LChange_LSCD) is now open.
 
 ## Important dates
 
