@@ -186,7 +186,7 @@ Participants are kindly requested to cite the task with the following bibtex ent
   booktitle = {Proceedings of the 3rd International Workshop on Computational Approaches to Historical Language Change},
   year      = {2022},
   address   = {Dublin, Ireland},
-  publisher = {Association for Computational Linguistics},
+  publisher = {Association for Computational Linguistics}
 }
 ```
 The submission site will be open soon.
