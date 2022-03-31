@@ -175,9 +175,9 @@ As can be seen, the lemma of the word *Decidióse* was not found, nor was the wo
 
 ## Papers
 
-Shared task participants are invited to submit a system description paper to be included in the proceedings of LChange'22. Papers will have a maximum length of 4 pages (excluding acknowledgements/bibliography/appendices). System description papers will be peer-reviewed, so review is mandatory for all who submit a paper. [Overleaf](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) templates are available. We strongly recommend following the [SemEval Guidelines for System Papers](https://semeval.github.io/system-paper-template.html) for structuring your paper.
+Shared task participants are invited to submit a system description paper to be included in the proceedings of LChange'22. Papers will have a maximum length of 4 pages (excluding acknowledgements/bibliography/appendices). System description papers will be peer-reviewed, so review is mandatory for all who submit a paper. [Overleaf](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) templates are available. We strongly recommend following the [SemEval Guidelines for System Papers](https://semeval.github.io/system-paper-template.html) for structuring your paper. The suggested template for paper titles is: \[teamname\] at LSCDiscovery: \[paper title\].
 
-Participants are kindly requested to cite the task with the following bibtex entry in their system description papers.
+Participants are kindly requested to cite the task with the following bibtex entry in their system description papers:
 
 ```
 @InProceedings{lscd2022,
