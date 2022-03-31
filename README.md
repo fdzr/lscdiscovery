@@ -175,8 +175,21 @@ As can be seen, the lemma of the word *Decidióse* was not found, nor was the wo
 
 ## Papers
 
-Shared task participants are invited to submit a system description paper to be included in the proceedings of LChange'22. Papers will have a maximum length of 4 pages (excluding acknowledgements/bibliography/appendices). System description papers will be peer-reviewed, so review is mandatory for all who submit a paper.
+Shared task participants are invited to submit a system description paper to be included in the proceedings of LChange'22. Papers will have a maximum length of 4 pages (excluding acknowledgements/bibliography/appendices). System description papers will be peer-reviewed, so review is mandatory for all who submit a paper. [Overleaf](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) templates are available. We strongly recommend following the [SemEval Guidelines for System Papers](https://semeval.github.io/system-paper-template.html) for structuring your paper.
 
+Participants are kindly requested to cite the task with the following bibtex entry in their system description papers.
+
+```
+@InProceedings{lscd2022,
+  author    = {D. Zamora-Reina, Frank and Bravo-Marquez, Felipe and Schlechtweg, Dominik},
+  title     = {LSCDiscovery: A shared task on semantic change discovery and detection in Spanish},
+  booktitle = {Proceedings of the 3rd International Workshop on Computational Approaches to Historical Language Change},
+  year      = {2022},
+  address   = {Dublin, Ireland},
+  publisher = {Association for Computational Linguistics},
+}
+```
+The submission site will be open soon.
 
 ## Important dates
 
