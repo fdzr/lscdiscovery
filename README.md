@@ -199,9 +199,9 @@ The submission [site](https://openreview.net/group?id=aclweb.org/ACL/2022/Worksh
 - **March 22**: Evaluation phase 2 (Detection) starts.
 - **March 28**: Competition ends.
 - **March 29**: Results are announced.
-- **April 9**: Paper submission deadline.
-- **April 15**: Notification of paper acceptance
-- **April 20**: Camera-ready papers due
+- **April 11**: Paper submission deadline.
+- **April 18**: Notification of paper acceptance
+- **April 22**: Camera-ready papers due
 
 
 ## Organizers
