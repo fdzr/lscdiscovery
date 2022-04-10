@@ -124,7 +124,7 @@ In this shared task there are two corpora available, corresponding to different 
 
 Each corpus contains four version of the original dataset (raw, tokenized, lemmatized and post-tagged).
 
-Annotated development and test data with sampled uses, clusterings, change scores, visualizations, and more stats are available [here](https://zenodo.org/record/6433203#.YlKw_bkpBE4).
+Annotated development and test data with sampled uses, clusterings, change scores, visualizations, and more stats are available [here](https://zenodo.org/record/6433203#.YlKw_bkpBE4) and [here](https://zenodo.org/record/6433398#.YlKxy7kpBE4) respectively.
 
 #### Issues related to annotated development data regarding their indices
 
