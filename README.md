@@ -140,7 +140,7 @@ The usage file for each word has different fields. Some of them are *lemma*, *co
 
     After retrieving the substring, the result is: *sexos;* instead of *sexo*
 
-**Note**: Many usage files contain this common error, please be careful when working with these files. A new version of these files will be available very soon.
+**Note**: You can find a new version [here](https://zenodo.org/record/6433203#.YlKv6LkpBE4).
 
 
 ## Target words
